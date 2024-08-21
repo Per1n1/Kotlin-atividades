@@ -13,8 +13,8 @@ fun main() {
     var precoDeVenda: Double = valorComImposto * (1 + margemDeLucro);
 
 
-    precoDeVenda = String.format("%.2f", precoDeVenda).toDouble()
-    valorComImposto = String.format("%.2f", valorComImposto).toDouble()
+    precoDeVenda = String.format("%.2f", precoDeVenda)
+    valorComImposto = String.format("%.2f", valorComImposto)
 
 
     val valorComImpostoFormatado = "R$%.2f".format(valorComImposto)
